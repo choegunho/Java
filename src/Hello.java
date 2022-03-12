@@ -7,8 +7,10 @@ public class Hello {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World!"); // "Hello World!" 를 출력합니다.
-		System.out.println("I'm a new Java Programmer.");
+		String s1 = "Hello World!";
+		String s2 = "I'm a new Java Promgrammer!";
+		
+		System.out.println(s1 + "\n" + s2);
 	}
 
 }
