@@ -9,9 +9,9 @@ public class Lec2Ex1 {
 		num2 = input.nextInt();
 		
 		if(num1 > num2)
-			System.out.println("더 큰 정수는"+num1+"입니다.");
+			System.out.println("두 정수중 더 큰 수는"+num1+"입니다.");
 		else
-			System.out.println("더 큰 정수는"+num2+"입니다.");
+			System.out.println("두 정수중 더 큰 수는"+num2+"입니다.");
 	}
 
 }
