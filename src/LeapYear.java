@@ -8,7 +8,7 @@ public class LeapYear {
 		boolean leapyear;
 		
 		leapyear = (2024 % 4 == 0);
-		System.out.prinln("2024 는 윤년인가:" +leapyear);
+		System.out.println("2024는 윤년인가 : " +leapyear);
 	}
 
 }
