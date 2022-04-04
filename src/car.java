@@ -1,21 +1,19 @@
 public class car {
-	String color;
-	int gear;
-	int speed;
+	private String model;
+	private String color;
+	private int speed;
 	
-	int changeGear(int gear) {
-		int newgear= gear + 1;
-		return newgear;
+	private int id;
+	private static int numbers = 0;
+	
+	public car(String m, String c, int s) {
+		model = m;
+		color = c;
+		speed = s;
+		id = ++numbers;
 	}
-	int speedUp(int speed) {
-		int upSpeed = speed + 20;
-		return upSpeed;
-	}
-	int speedDown(int speed) {
-		int downSpeed = speed - 60;
-		return downSpeed;
-	}
-	public String toString() {
-		return "Car [color = "+color+", speed = "+speed+", gear = "+gear+"]";
+	
+	public static int getNumberOfCars() {
+		return numbers;
 	}
 }

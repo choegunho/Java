@@ -1,20 +1,12 @@
 public class carEx {
 
 	public static void main(String[] args) {
-		car Redcar = new car();
-		Redcar.color = "red";
-		Redcar.gear = 2;
-		Redcar.speed = 80;
+		car c1 = new car("S600", "white", 80);
+		car c2 = new car("E500", "blue", 20);
 		
-		System.out.println(Redcar.toString());
-
-		Redcar.gear = Redcar.changeGear(Redcar.gear);
-		System.out.println(Redcar.toString());
-		Redcar.speed = Redcar.speedUp(Redcar.speed);
-		System.out.println(Redcar.toString());
-		Redcar.speed = Redcar.speedDown(Redcar.speed);
-		System.out.println(Redcar.toString());
+		int n = car.getNumberOfCars();
 		
+		System.out.println("지금까지 생성된 자동차 수="+n);
 	}
 
 }
